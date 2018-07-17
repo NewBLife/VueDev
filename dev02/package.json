@@ -1,0 +1,34 @@
+{
+    "name": "dev02",
+    "version": "1.0.0",
+    "description": "vue+webpack+vue-loader sample",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --open --hot",
+        "build": "webpack --progress --hide-modules"
+    },
+    "keywords": [
+        "vue",
+        "webpack",
+        "jquery",
+        "karma"
+    ],
+    "author": "lxb",
+    "license": "MIT",
+    "devDependencies": {
+        "css-loader": "^1.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "jquery": "^3.3.1",
+        "vue-loader": "^15.2.4",
+        "vue-style-loader": "^4.1.0",
+        "vue-template-compiler": "^2.5.16",
+        "webpack": "^4.16.0",
+        "webpack-cli": "^3.0.8",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "dependencies": {
+        "de-indent": "^1.0.2",
+        "he": "^1.1.1",
+        "vue": "^2.5.16"
+    }
+}
