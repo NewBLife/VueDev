@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>vue-router sample</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1>vue-router Sample</h1>
+        <p>
+            <router-link to="/">Go to Top</router-link>
+        </P>
+        <p>
+            <router-link to="/contract">Go to about</router-link>
+        </P>
+        <p>
+            <router-link to="/contract">Go to contract</router-link>
+        </P>
+        <p>
+            <router-link :to="{name:'user',params:{userId:345}}">Go to User</router-link>
+        </P>
+        <router-view></router-view>
+    </div>
+    <script src="/dist/build.js"></script>
+</body>
+
+</html>
