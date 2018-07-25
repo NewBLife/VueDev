@@ -10,3 +10,6 @@ Vue dev learning demo
 - Dev03
   
   Webpack + Vue + Vue-Router sample
+- Dev04
+
+  Webpack + Vue + Vue-Router + Axios + FetchAPI sample
